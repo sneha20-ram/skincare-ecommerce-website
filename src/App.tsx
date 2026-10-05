@@ -12,6 +12,7 @@ import { CustomerReviews } from './components/CustomerReviews';
 import { IngredientGlossary } from './components/IngredientGlossary';
 import { RitualsAndScience } from './components/RitualsAndScience';
 import { Footer } from './components/Footer';
+import { ScrollReveal } from './components/ScrollReveal';
 import { CartDrawer } from './components/CartDrawer';
 import { WishlistDrawer } from './components/WishlistDrawer';
 import { SkinQuiz } from './components/SkinQuiz';
@@ -39,20 +40,30 @@ function MainLayout() {
         <Hero onExplore={() => handleNavigate('catalog')} />
 
         {/* Product Catalog & Live Filtering */}
-        <ProductCatalog />
+        <ScrollReveal>
+          <ProductCatalog />
+        </ScrollReveal>
 
         {/* Customer Reviews & Verified Testimonials */}
-        <CustomerReviews />
+        <ScrollReveal>
+          <CustomerReviews />
+        </ScrollReveal>
 
         {/* 3-Step Daily Protocols & Biophotonic Violet Glass Science */}
-        <RitualsAndScience />
+        <ScrollReveal>
+          <RitualsAndScience />
+        </ScrollReveal>
 
         {/* The Botanical Herbarium & Ingredients Glossary */}
-        <IngredientGlossary />
+        <ScrollReveal>
+          <IngredientGlossary />
+        </ScrollReveal>
       </main>
 
       {/* Brand Footer */}
-      <Footer onNavigate={handleNavigate} />
+      <ScrollReveal direction="none">
+        <Footer onNavigate={handleNavigate} />
+      </ScrollReveal>
 
       {/* Drawers & Modals */}
       <CartDrawer />

@@ -1,3 +1,8 @@
+import serumImage from '../assets/images/product_barrier_serum_1791181758066.jpg';
+import creamImage from '../assets/images/product_hydrating_cream_1791181770126.jpg';
+import cleanserImage from '../assets/images/product_botanical_cleanser_1791181781434.jpg';
+import stillImage from '../assets/images/botanical_ingredients_still_1791181791874.jpg';
+
 export interface Review {
   id: string;
   author: string;
@@ -57,7 +62,7 @@ export const PRODUCTS: Product[] = [
     volume: '30 ml / 1.0 fl oz',
     rating: 4.9,
     reviewCount: 128,
-    image: '/src/assets/images/product_barrier_serum_1791181758066.jpg',
+    image: serumImage,
     concerns: ['Barrier Repair', 'Dehydration', 'Redness', 'Fine Lines'],
     skinTypes: ['Dry', 'Sensitive', 'Normal', 'Compromised'],
     keyActives: ['3% Bio-Identical Ceramide Complex', '100% Olive Squalane', 'Tremella Fuciformis'],
@@ -128,7 +133,7 @@ export const PRODUCTS: Product[] = [
     volume: '50 ml / 1.7 oz',
     rating: 4.9,
     reviewCount: 215,
-    image: '/src/assets/images/product_hydrating_cream_1791181770126.jpg',
+    image: creamImage,
     concerns: ['Dryness', 'Barrier Recovery', 'Environmental Stress', 'Loss of Elasticity'],
     skinTypes: ['All Skin Types', 'Dry', 'Sensitive', 'Mature'],
     keyActives: ['Fermented Centella Asiatica', 'Wild Murumuru Butter', 'Ectoin 2%'],
@@ -188,7 +193,7 @@ export const PRODUCTS: Product[] = [
     volume: '150 ml / 5.1 fl oz',
     rating: 4.8,
     reviewCount: 94,
-    image: '/src/assets/images/product_botanical_cleanser_1791181781434.jpg',
+    image: cleanserImage,
     concerns: ['Congestion', 'Excess Sebum', 'Sensitivity', 'Dullness'],
     skinTypes: ['All Skin Types', 'Sensitive', 'Combination', 'Oily'],
     keyActives: ['Cold-Pressed Camellia Seed', 'Yucca Root Saponins', 'German Chamomile Bisabolol'],
@@ -235,7 +240,7 @@ export const PRODUCTS: Product[] = [
     volume: '30 ml / 1.0 fl oz',
     rating: 4.8,
     reviewCount: 86,
-    image: '/src/assets/images/product_barrier_serum_1791181758066.jpg',
+    image: serumImage,
     concerns: ['Hyperpigmentation', 'Uneven Tone', 'Dullness', 'Loss of Firmness'],
     skinTypes: ['Normal', 'Dry', 'Mature', 'Combination'],
     keyActives: ['Supercritical Kakadu Plum (Active Vitamin C)', 'Microalgae Astaxanthin', 'Organic Rosehip Fruit Oil'],
@@ -280,7 +285,7 @@ export const PRODUCTS: Product[] = [
     volume: '120 ml / 4.0 fl oz',
     rating: 4.9,
     reviewCount: 110,
-    image: '/src/assets/images/botanical_ingredients_still_1791181791874.jpg',
+    image: stillImage,
     concerns: ['Redness', 'Dehydration', 'Sensitized Skin', 'Irritation'],
     skinTypes: ['Sensitive', 'Reactive', 'Dehydrated', 'All'],
     keyActives: ['90% Fermented Centella Water', 'Dual-Weight Snow Mushroom', 'Panthenol B5 5%'],
@@ -327,7 +332,7 @@ export const PRODUCTS: Product[] = [
     volume: '50 ml / 1.7 fl oz',
     rating: 4.9,
     reviewCount: 167,
-    image: '/src/assets/images/product_botanical_cleanser_1791181781434.jpg',
+    image: cleanserImage,
     concerns: ['UV Protection', 'Photoaging', 'Blue Light', 'Pollution'],
     skinTypes: ['All Skin Types', 'Sensitive', 'Acne-Prone'],
     keyActives: ['Non-Nano Zinc Oxide 18.2%', 'Ectoin 1.5%', 'Buddleja Davidii (Butterfly Bush)'],
@@ -375,7 +380,7 @@ export const PRODUCTS: Product[] = [
     volume: '30 ml / 1.0 fl oz',
     rating: 4.7,
     reviewCount: 79,
-    image: '/src/assets/images/product_barrier_serum_1791181758066.jpg',
+    image: serumImage,
     concerns: ['Uneven Texture', 'Clogged Pores', 'Dullness', 'Flaking'],
     skinTypes: ['Normal', 'Combination', 'Oily', 'Sensitive'],
     keyActives: ['8% Plant-Derived Lactic Acid', '2% Gluconolactone (PHA)', 'Moroccan Blue Tansy'],
@@ -421,7 +426,7 @@ export const PRODUCTS: Product[] = [
     volume: '50 ml / 1.7 oz',
     rating: 5.0,
     reviewCount: 63,
-    image: '/src/assets/images/product_hydrating_cream_1791181770126.jpg',
+    image: creamImage,
     concerns: ['Severe Dryness', 'Compromised Barrier', 'Flaking', 'Post-Procedure'],
     skinTypes: ['Very Dry', 'Sensitized', 'Mature'],
     keyActives: ['Biomimetic Phytosterol Complex', 'Ceramide Complex 1/3/6-II', 'Hydrolyzed Colloidal Oat'],

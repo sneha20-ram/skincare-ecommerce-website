@@ -2,6 +2,7 @@ import React from 'react';
 import { Sun, Moon, Shield, Award, CheckCircle2, Droplets } from 'lucide-react';
 import { useStore } from '../context/StoreContext';
 import { PRODUCTS } from '../data/products';
+import stillImage from '../assets/images/botanical_ingredients_still_1791181791874.jpg';
 
 export const RitualsAndScience: React.FC = () => {
   const { setActiveProductModal, setIsQuizOpen } = useStore();
@@ -172,7 +173,7 @@ export const RitualsAndScience: React.FC = () => {
             <div className="lg:col-span-6">
               <div className="aspect-[4/3] rounded-xs overflow-hidden border border-[#47433C] bg-[#1C1B18] shadow-xl">
                 <img
-                  src="/src/assets/images/botanical_ingredients_still_1791181791874.jpg"
+                  src={stillImage}
                   alt="Lumen Botanica natural botanical extraction still life"
                   className="w-full h-full object-cover object-center"
                   referrerPolicy="no-referrer"
