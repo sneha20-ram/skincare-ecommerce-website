@@ -1,0 +1,6 @@
+{
+  "name": "LUMEN BOTANICA | Clean Cellular Skincare",
+  "description": "Bespoke clinical botanical skincare formulated with bio-identical lipids, cold-pressed adaptogens, and pure barrier repair science.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
